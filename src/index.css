@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;500;600;700;800&display=swap");
+
+/* =========== base style ========= */
+:root{
+  --color1:#19FFFF;
+  --color2:#FFFF4D;
+  --color3:#B300FF;
+  --color4:#00CCCC;
+  --color5:#FFCC00;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: grandstander;
+}
+
+section,
+footer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 2rem;
+  line-height: 50px;
+  font-family: grandstander;
+  color: #0a2b1e;
+  font-weight: 600;
+}
+
+p {
+  color: #596b65;
+  font-size: 1rem;
+  line-height: 35px;
+  font-family: grandstander;
+  font-weight: 400;
+}
+
+button.btn {
+  background: #17bf9e;
+  color: #fff;
+  padding: 7px 25px;
+  border-radius: 50px;
+}
+
+i {
+  color: #17bf9e;
+}
