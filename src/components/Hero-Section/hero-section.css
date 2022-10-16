@@ -5,17 +5,9 @@
 
 .hero__content {
   padding-top: 80px;
-  /* border: 1px solid red; */
 }
-/* .search input {
-  border: none;
-  outline: none;
-  padding: 7px 10%;
-} */
-
 .search {
   width: 60%;
-  /* border: 1px solid #17bf9d44; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,3 +27,28 @@
 .search button:hover{
   background-color: var(--color4);
 }
+
+@media only screen and (max-width:375px) {
+  .hero__content {
+    padding-top: 50px;
+    padding-left: 15px;
+  }
+  .hero__title {
+    font-size: 25px;
+  }
+  .col-lg-6 img {
+    /* margin-top: 30px; */
+  }
+  .logo{
+    margin-left: 60px;
+  }
+  .mobile__menu{
+    display:none;
+  }
+  section, footer {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+}
+
+  

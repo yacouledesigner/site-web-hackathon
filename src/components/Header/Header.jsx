@@ -3,29 +3,19 @@ import { Container } from "reactstrap";
 import "./header.css";
 
 const navLinks = [
-  {
-    id:'1',
-    display: "Accueil",
-    url: "#",
-  },
-  {
-    id:'2',
-    display: "Qui sommes-nous ?",
-    url: "#",
-  },
-
-  {
-    id:'3',
-    display: "Cours",
-    url: "#",
-  },
-  {
-    id:'4',
-    display: "Login",
-    url: "#",
-  },
   // {
-  //   display: "Blog",
+  //   id:'1',
+  //   display: "Accueil",
+  //   url: "#",
+  // },
+  // {
+  //   id:'2',
+  //   display: "Cours",
+  //   url: "#",
+  // },
+  // {
+  //   id:'3',
+  //   display: "Login",
   //   url: "#",
   // },
 ];
@@ -40,7 +30,7 @@ const Header = (props) => {
       <Container>
         <div className="navigation d-flex align-items-center justify-content-between">
           <div className="logo">
-            <h2 className=" d-flex align-items-center gap-1" style={{fontWeight:'bolder'}}>
+            <h2 className=" d-flex align-items-center gap-1 pt-20" style={{fontWeight:'bolder'}}>
               <span style={{color:'#FFCC00'}}>Learn</span><span style={{color:'#B300FF'}}>-Elites</span> 
             </h2>
           </div>

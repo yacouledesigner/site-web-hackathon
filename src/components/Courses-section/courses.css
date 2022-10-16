@@ -35,3 +35,29 @@
 .course__top__left h2 {
   font-weight: 600;
 }
+
+#btn1{
+  background-color: var(--color5);
+  width: 200px;
+  height: 40px;
+  border-radius: 10rem;
+  border: none;
+  margin-bottom: 10px;
+}
+#btn1:hover{
+  background-color: white;
+}
+
+#btn2{
+  background-color: var(--color3);
+  color: white;
+  width: 200px;
+  height: 40px;
+  border-radius: 10rem;
+  border: none;
+  margin-bottom: 10px;
+}
+#btn2:hover{
+  background-color: white;
+  color: black;
+}

@@ -4,102 +4,97 @@ import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import "./footer.css";
 
 const footerQuickLinks = [
-  {
-    display: "Home",
-    url: "#",
-  },
-  {
-    display: "About US",
-    url: "#",
-  },
+  // {
+  //   display: "Accueil",
+  //   url: "#",
+  // },
+  // {
+  //   display: "Qui sommes nous ?",
+  //   url: "#",
+  // },
 
-  {
-    display: "Courses",
-    url: "#",
-  },
-
-  {
-    display: "Blog",
-    url: "#",
-  },
+  // {
+  //   display: "Cours",
+  //   url: "#",
+  // },
 ];
 
-const footerInfoLinks = [
-  {
-    display: "Privacy Policy",
-    url: "#",
-  },
-  {
-    display: "Membership",
-    url: "#",
-  },
+// const footerInfoLinks = [
+//   {
+//     display: "Privacy Policy",
+//     url: "#",
+//   },
+//   {
+//     display: "Membership",
+//     url: "#",
+//   },
 
-  {
-    display: "Purchases Guide",
-    url: "#",
-  },
+//   {
+//     display: "Purchases Guide",
+//     url: "#",
+//   },
 
-  {
-    display: "Terms of Service",
-    url: "#",
-  },
-];
+//   {
+//     display: "Terms of Service",
+//     url: "#",
+//   },
+// ];
 
 const Footer = () => {
   return (
     <footer className="footer">
       <Container>
         <Row>
-          <Col lg="3" md="6" className="mb-4">
+          <Col lg="4" md="6" className="mb-4">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> Learners.
+            <span style={{color:'#FFCC00'}}>Learn</span><span style={{color:'#B300FF'}}>-Elites</span>
             </h2>
 
-            <div className="follows">
-              <p className="mb-0">Follow us on social media</p>
+            {/* <div className="follows">
+              <p className="mb-0">Suivez-nous</p>
               <span>
                 {" "}
                 <a href="facebook.com">
-                  <i class="ri-facebook-line"></i>
+                  <i className="ri-facebook-line"></i>
                 </a>
               </span>
 
               <span>
                 {" "}
                 <a href="facebook.com">
-                  <i class="ri-instagram-line"></i>
+                  <i className="ri-instagram-line"></i>
                 </a>
               </span>
 
               <span>
                 {" "}
                 <a href="facebook.com">
-                  <i class="ri-linkedin-line"></i>
+                  <i className="ri-linkedin-line"></i>
                 </a>
               </span>
 
               <span>
                 {" "}
                 <a href="facebook.com">
-                  <i class="ri-twitter-line"></i>
+                  <i className="ri-twitter-line"></i>
                 </a>
               </span>
-            </div>
+            </div> */}
           </Col>
 
-          <Col lg="3" md="6" className="mb-4">
-            <h6 className="fw-bold">Explore</h6>
-            <ListGroup className="link__list">
+          {/* <Col lg="4" md="6" className="mb-4"> */}
+            {/* <h6 className="fw-bold">Liens Utiles</h6> */}
+            {/* <ListGroup className="link__list">
               {footerQuickLinks.map((item, index) => (
                 <ListGroupItem key={index} className="border-0 ps-0 link__item">
                   {" "}
                   <a href={item.url}>{item.display}</a>
                 </ListGroupItem>
-              ))}
-            </ListGroup>
-          </Col>
+              ))} */}
+            {/* </ListGroup> */}
+          {/* </Col> */}
 
-          <Col lg="3" md="6" className="mb-4">
+          {/* <Col lg="3" md="6" className="mb-4">
             <h6 className="fw-bold">Information</h6>
             <ListGroup className="link__list">
               {footerInfoLinks.map((item, index) => (
@@ -109,15 +104,13 @@ const Footer = () => {
                 </ListGroupItem>
               ))}
             </ListGroup>
-          </Col>
+          </Col> */}
 
-          <Col lg="3" md="6">
-            <h6 className="fw-bold">Get in Touch</h6>
+          {/* <Col lg="8" md="6" className='d-flex'>
+            <p> <strong>Addresse:</strong>  Abidjan Mall</p>
+            <p style={{marginLeft:50}}> <strong>Email:</strong> troupeselites@gmail.com</p>
+          </Col> */}
 
-            <p>Address: Sylhet, Bangladesh</p>
-            <p> Phone: +88 0123456789 </p>
-            <p>Email: example@gmail.com</p>
-          </Col>
         </Row>
       </Container>
     </footer>
